@@ -13,24 +13,30 @@ h1, h2 {
 }
 
 h1 {
+  display: block;
+  text-align: center;
   font-size: 3rem;
 }
 
-h1 {
+h2 {
+  display: block;
+  text-align: left;
   font-size: 1.875rem;
 }
 
 ul {
   list-style: none;
+  display: inline-block;
+  text-align: center;
 }
 
 nav a {
+  display: inline-block;
   text-decoration: none;
   color: #fff;
   background-color: #b2a212;
 }
 nav a:hover {
-  al
   color: #cc1465;
 }
 nav .current {
@@ -38,6 +44,7 @@ nav .current {
 }
 
 img {
+  display: block;
   width: 100%;
 }
 
