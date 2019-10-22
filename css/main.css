@@ -3,35 +3,40 @@ html {
   line-height: 1.5;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 header {
   background-color: #ffe500;
 }
 
 h1, h2 {
   font-family: Sigmar One, sans-serif;
+  display: block;
   color: #b20953;
 }
 
 h1 {
-  display: block;
   text-align: center;
   font-size: 3rem;
 }
 
 h2 {
-  display: block;
   text-align: left;
   font-size: 1.875rem;
 }
 
 ul {
-  list-style: none;
-  display: inline-block;
+  list-style-type: none;
   text-align: center;
 }
 
-nav a {
+nav li {
   display: inline-block;
+  text-align: center;
+}
+nav a {
   text-decoration: none;
   color: #fff;
   background-color: #b2a212;
