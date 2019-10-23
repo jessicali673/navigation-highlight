@@ -1,6 +1,12 @@
 html {
+  box-sizing: border-box;
   font-family: Georgia, serif;
   line-height: 1.5;
+}
+
+body {
+  vertical-align: center;
+  margin: auto;
 }
 
 *, *::before, *::after {
@@ -12,7 +18,7 @@ header {
 }
 
 h1, h2 {
-  font-family: Sigmar One, sans-serif;
+  font-family: "Sigmar One", sans-serif;
   display: block;
   color: #b20953;
 }
@@ -36,14 +42,17 @@ nav li {
   display: inline-block;
   text-align: center;
 }
+
 nav a {
   text-decoration: none;
   color: #fff;
   background-color: #b2a212;
 }
+
 nav a:hover {
   color: #cc1465;
 }
+
 nav .current {
   background-color: #b20953;
 }
@@ -55,9 +64,12 @@ img {
 
 main {
   font-size: 1.125rem;
+  color: #2f2d13;
 }
 
 footer {
   background-color: #ffe500;
   font-size: .75rem;
+  display: block;
+  text-align: center;
 }
