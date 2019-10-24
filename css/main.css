@@ -31,7 +31,6 @@ h1 {
   padding: 0 .75em;
   text-align: center;
   font-size: 3rem;
-  font-weight: 50;
 }
 
 h2 {
@@ -43,7 +42,7 @@ h2 {
 ul {
   list-style-type: none;
   text-align: center;
-  margin: .3em 0 0;
+  margin: 0;
   padding: 0;
 }
 
