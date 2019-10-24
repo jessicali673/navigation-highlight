@@ -5,9 +5,7 @@ html {
 }
 
 body {
-  vertical-align: center;
   margin: 0;
-  padding: 0;
 }
 
 *, *::before, *::after {
@@ -17,77 +15,96 @@ body {
 header {
   background-color: #ffe500;
   margin: 0;
-  padding: 0 0 .75em;
-}
-
-h1, h2 {
-  font-family: "Sigmar One", sans-serif;
-  display: block;
-  color: #b20953;
-  padding: 0 .75em;
+  max-width: 25rem;
+  padding: 0 .5em .5em;
 }
 
 h1 {
+  font-family: "Sigmar One", sans-serif;
+  color: #b20953;
   margin: 0;
-  padding: 0 .75em;
+  padding: 0;
   text-align: center;
   font-size: 3rem;
+  display: block;
 }
 
 h2 {
+  font-family: "Sigmar One", sans-serif;
+  color: #b20953;
   text-align: left;
   font-size: 1.875rem;
-  padding: 0;
+  padding: .5em .25em;
+  margin: .3em 0 0;
+  display: inline-block;
 }
 
-ul {
+.nav {
   list-style-type: none;
   text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  display: inline-block;
-  text-align: center;
   font-weight: 100;
-  font-size: 1.125rem;
-  padding: 0;
-  margin: 0;
+  font-size: 1.06rem;
+  margin: .3em 0 0;
+  padding: 0 .5em;
+  max-width: 25rem;
 }
 
-nav a {
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
   text-decoration: none;
   color: #fff;
+  text-align: center;
   background-color: #b2a212;
-  margin: .3em 0;
-  padding: .2em .5em .3em;
+  padding: .4em .5em;
   border-radius: 4px;
 }
 
-nav a:hover {
-  color: #cc1465;
+.nav a:hover {
+  background-color: #cc1465;
+  color: #fff;
+  border-color: #cc1465;
+  padding: .4em .5em;
+  text-align: center;
+  border-radius: 4px;
 }
 
-nav .current {
+.nav .current {
   background-color: #b20953;
 }
 
 img {
   display: block;
   width: 100%;
+  padding: .75em;
+  max-width: 25rem;
+  margin: 0;
+}
+
+p {
+  padding: .75em .5em;
+  max-width: 25rem;
+  margin: 0;
+}
+
+p strong {
+  font-weight: 900;
 }
 
 main {
   color: #2f2d13;
-  margin: 0;
-  padding: 0 .75em;
+  margin: .2em;
 }
 
 footer {
   background-color: #ffe500;
+  font-size: .8rem;
   color: #2f2d13;
   display: block;
   text-align: center;
-  padding: .75em;
+  padding: 1.2em;
+  margin: .3em 0 0;
+  max-width: 25rem;
 }
