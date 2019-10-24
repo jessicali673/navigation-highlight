@@ -30,17 +30,20 @@ h1 {
   margin: 0;
   text-align: center;
   font-size: 3rem;
+  font-weight: 100;
 }
 
 h2 {
   text-align: left;
   font-size: 1.875rem;
+  padding: 0;
 }
 
 ul {
   list-style-type: none;
   text-align: center;
   margin: 0;
+  padding: 0;
 }
 
 nav li {
@@ -72,6 +75,8 @@ img {
 
 main {
   color: #2f2d13;
+  margin: .3em;
+  padding: 0 .75em;
 }
 
 footer {
